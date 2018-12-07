@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q7K-m2-t0c">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -10,80 +10,212 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Swift Code-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="BYZ-38-t0r" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwiftCode.png" translatesAutoresizingMaskIntoConstraints="NO" id="nOa-cw-yJf">
+                                <rect key="frame" x="0.0" y="113" width="375" height="270"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mz4-4m-E0K">
+                                <rect key="frame" x="16" y="421" width="343" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="NpI-zX-39a"/>
+                                </constraints>
+                                <string key="text">The Swift Code is more abstract than block code. This is so because swift consists of math that you don't use in Block Code. Swift is less abstract than Byte code.</string>
+                                <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.046545039428554702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mz4-4m-E0K" firstAttribute="top" secondItem="nOa-cw-yJf" secondAttribute="bottom" constant="2" id="57a-yN-avu"/>
+                            <constraint firstItem="nOa-cw-yJf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="Aua-c8-XBa"/>
+                            <constraint firstItem="nOa-cw-yJf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ITp-57-q1M"/>
+                            <constraint firstItem="Mz4-4m-E0K" firstAttribute="centerX" secondItem="nOa-cw-yJf" secondAttribute="centerX" id="Rfr-Wp-6cb"/>
+                            <constraint firstItem="Mz4-4m-E0K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="129" id="SYc-Zf-5sT"/>
+                            <constraint firstItem="nOa-cw-yJf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eMx-qO-i38"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nOa-cw-yJf" secondAttribute="bottom" constant="395" id="zRt-aM-AQl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-391" y="116"/>
+            <point key="canvasLocation" x="-391.19999999999999" y="115.27093596059113"/>
         </scene>
-        <!--View Controller-->
+        <!--Block Code-->
         <scene sceneID="xZX-Gt-efd">
             <objects>
-                <viewController id="o6A-4Y-O8e" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Cv9-JW-iFV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="o6A-4Y-O8e" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cv9-JW-iFV" userLabel="Gate Logic">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlockCode.png" translatesAutoresizingMaskIntoConstraints="NO" id="UFv-Hl-1ym">
+                                <rect key="frame" x="0.0" y="117" width="375" height="264"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DH4-nf-XXD">
+                                <rect key="frame" x="16" y="389" width="343" height="423"/>
+                                <string key="text">The Block code is more abstract than talking in real life. This is so because you have to put the right sections of code together to do a simple task where you don't have to do in real life. Block code is less abstract than Binary.</string>
+                                <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.52603019736082257" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DH4-nf-XXD" firstAttribute="centerX" secondItem="UFv-Hl-1ym" secondAttribute="centerX" id="1fS-3X-Ks6"/>
+                            <constraint firstItem="loK-tg-TxA" firstAttribute="bottom" secondItem="UFv-Hl-1ym" secondAttribute="bottom" constant="397" id="99q-M3-9zz"/>
+                            <constraint firstItem="DH4-nf-XXD" firstAttribute="top" secondItem="UFv-Hl-1ym" secondAttribute="bottom" constant="8" id="APe-eK-NNG"/>
+                            <constraint firstItem="DH4-nf-XXD" firstAttribute="width" secondItem="Cv9-JW-iFV" secondAttribute="width" constant="-32" id="IpY-Bf-FI9"/>
+                            <constraint firstItem="UFv-Hl-1ym" firstAttribute="leading" secondItem="loK-tg-TxA" secondAttribute="leading" id="TjZ-hr-eLI"/>
+                            <constraint firstItem="DH4-nf-XXD" firstAttribute="centerX" secondItem="loK-tg-TxA" secondAttribute="centerX" id="cyW-qA-3dF"/>
+                            <constraint firstItem="UFv-Hl-1ym" firstAttribute="centerX" secondItem="Cv9-JW-iFV" secondAttribute="centerX" id="rG5-SN-xot"/>
+                            <constraint firstItem="loK-tg-TxA" firstAttribute="bottom" secondItem="DH4-nf-XXD" secondAttribute="bottom" constant="-34" id="x7D-qC-HLP"/>
+                            <constraint firstItem="UFv-Hl-1ym" firstAttribute="top" secondItem="loK-tg-TxA" secondAttribute="top" constant="73" id="zZ4-rJ-hcK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="loK-tg-TxA"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cJ-Sp-I4V" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="316" y="116"/>
+            <point key="canvasLocation" x="316" y="115.27093596059113"/>
         </scene>
-        <!--View Controller-->
+        <!--Abstraction View Controller-->
+        <scene sceneID="0Hl-2S-Nsx">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="Q7K-m2-t0c" customClass="AbstractionViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bae-7N-hLC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="-564"/>
+        </scene>
+        <!--Byte Code-->
         <scene sceneID="JTh-Fc-HHx">
             <objects>
-                <viewController id="5Pi-q1-uaO" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pJh-xT-xMl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="ByteCodeViewController" title="Byte Code" id="5Pi-q1-uaO" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pJh-xT-xMl" userLabel="ByteCode">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ByteCode.png" translatesAutoresizingMaskIntoConstraints="NO" id="8ZH-Ec-biw">
+                                <rect key="frame" x="0.0" y="113" width="375" height="265"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnF-YY-O2D">
+                                <rect key="frame" x="16" y="421" width="343" height="300"/>
+                                <string key="text">Byte code is more abstract than Swift Code. This is so because in Byte code you are working in an environment that you can't see. This is less abstract than binary.</string>
+                                <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.97408550146896233" green="1" blue="0.0014138489788160236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YUX-ZK-6og" firstAttribute="bottom" secondItem="8ZH-Ec-biw" secondAttribute="bottom" constant="400" id="30c-Xa-lPt"/>
+                            <constraint firstItem="jnF-YY-O2D" firstAttribute="centerX" secondItem="YUX-ZK-6og" secondAttribute="centerX" id="7gY-ph-nXY"/>
+                            <constraint firstItem="8ZH-Ec-biw" firstAttribute="centerX" secondItem="pJh-xT-xMl" secondAttribute="centerX" id="8sM-Al-LrF"/>
+                            <constraint firstItem="jnF-YY-O2D" firstAttribute="centerX" secondItem="8ZH-Ec-biw" secondAttribute="centerX" id="Lbu-SM-hfK"/>
+                            <constraint firstItem="jnF-YY-O2D" firstAttribute="top" secondItem="8ZH-Ec-biw" secondAttribute="bottom" constant="43" id="RpA-gf-DBx"/>
+                            <constraint firstItem="8ZH-Ec-biw" firstAttribute="leading" secondItem="YUX-ZK-6og" secondAttribute="leading" id="agN-No-teG"/>
+                            <constraint firstItem="jnF-YY-O2D" firstAttribute="width" secondItem="pJh-xT-xMl" secondAttribute="width" constant="-32" id="hZK-Nz-s7h"/>
+                            <constraint firstItem="8ZH-Ec-biw" firstAttribute="top" secondItem="YUX-ZK-6og" secondAttribute="top" constant="69" id="imn-xd-gSB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YUX-ZK-6og"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDE-jr-ptv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="116"/>
+            <point key="canvasLocation" x="989.60000000000002" y="115.27093596059113"/>
         </scene>
-        <!--View Controller-->
+        <!--Binary Code-->
         <scene sceneID="Cdd-fX-TNu">
             <objects>
-                <viewController id="IXC-1p-rHK" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4hW-Y2-vlt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="BinaryViewController" title="Binary Code" id="IXC-1p-rHK" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4hW-Y2-vlt" userLabel="Swift">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BinaryCode.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pmV-tY-534">
+                                <rect key="frame" x="0.0" y="117" width="375" height="263"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdF-wb-zD8">
+                                <rect key="frame" x="16" y="431" width="343" height="300"/>
+                                <string key="text">Binary code is more abstract than Logic Gates. Binary is the most abstract that you can get as it is almost impossible to write by code. Binary is less abstract than nothing.</string>
+                                <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.053865556940914661" green="1" blue="0.0019352455799938051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xdF-wb-zD8" firstAttribute="top" secondItem="pmV-tY-534" secondAttribute="bottom" constant="51" id="5EV-Hh-4zX"/>
+                            <constraint firstItem="xdF-wb-zD8" firstAttribute="centerX" secondItem="GtP-cC-JuX" secondAttribute="centerX" id="EIk-sG-9mF"/>
+                            <constraint firstItem="pmV-tY-534" firstAttribute="centerX" secondItem="4hW-Y2-vlt" secondAttribute="centerX" id="F5g-KW-LLt"/>
+                            <constraint firstItem="pmV-tY-534" firstAttribute="top" secondItem="GtP-cC-JuX" secondAttribute="top" constant="73" id="Ffs-Nu-NJ6"/>
+                            <constraint firstItem="GtP-cC-JuX" firstAttribute="bottom" secondItem="pmV-tY-534" secondAttribute="bottom" constant="398" id="akX-ru-ylF"/>
+                            <constraint firstItem="xdF-wb-zD8" firstAttribute="width" secondItem="4hW-Y2-vlt" secondAttribute="width" constant="-32" id="mtH-f9-nke"/>
+                            <constraint firstItem="pmV-tY-534" firstAttribute="leading" secondItem="GtP-cC-JuX" secondAttribute="leading" id="ntH-P4-m0h"/>
+                            <constraint firstItem="xdF-wb-zD8" firstAttribute="centerX" secondItem="pmV-tY-534" secondAttribute="centerX" id="rN9-Gj-UVm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GtP-cC-JuX"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxZ-HN-dEn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1662" y="116"/>
+            <point key="canvasLocation" x="1661.5999999999999" y="115.27093596059113"/>
         </scene>
-        <!--View Controller-->
+        <!--Logical Gate Code-->
         <scene sceneID="d4a-fB-f1n">
             <objects>
-                <viewController id="j4y-Qw-Ykn" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cnk-ps-6fu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logical Gate Code" id="j4y-Qw-Ykn" customClass="ViewController" customModule="Abstractor_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cnk-ps-6fu" userLabel="BlockCode">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogicGate.gif" translatesAutoresizingMaskIntoConstraints="NO" id="n1J-vD-iSm">
+                                <rect key="frame" x="0.0" y="117" width="375" height="270"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQw-6h-Tye">
+                                <rect key="frame" x="16" y="429" width="343" height="360"/>
+                                <string key="text">Logic gates are more abstract than Block Code. Logic gates are physical circuits (or virtual if you want) that connect together to make computers work. This is less abstract than Binary.</string>
+                                <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.98835509361694207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n1J-vD-iSm" firstAttribute="top" secondItem="H5u-SM-HKU" secondAttribute="top" constant="73" id="0G5-dy-q4P"/>
+                            <constraint firstItem="H5u-SM-HKU" firstAttribute="bottom" secondItem="n1J-vD-iSm" secondAttribute="bottom" constant="391" id="Nei-mJ-kZd"/>
+                            <constraint firstItem="n1J-vD-iSm" firstAttribute="centerX" secondItem="cnk-ps-6fu" secondAttribute="centerX" id="WLd-IZ-aul"/>
+                            <constraint firstItem="RQw-6h-Tye" firstAttribute="centerX" secondItem="H5u-SM-HKU" secondAttribute="centerX" id="bFp-SN-AAe"/>
+                            <constraint firstItem="RQw-6h-Tye" firstAttribute="top" secondItem="n1J-vD-iSm" secondAttribute="bottom" constant="42" id="dKC-ha-QNt"/>
+                            <constraint firstItem="RQw-6h-Tye" firstAttribute="centerX" secondItem="n1J-vD-iSm" secondAttribute="centerX" id="hky-eL-wJ8"/>
+                            <constraint firstItem="n1J-vD-iSm" firstAttribute="leading" secondItem="H5u-SM-HKU" secondAttribute="leading" id="ptb-6c-4WK"/>
+                            <constraint firstItem="RQw-6h-Tye" firstAttribute="width" secondItem="cnk-ps-6fu" secondAttribute="width" constant="-32" id="r2D-yY-ZxE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="H5u-SM-HKU"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xgs-tk-2y8" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yAx-o7-zN1">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </objects>
-            <point key="canvasLocation" x="2332" y="116"/>
+            <point key="canvasLocation" x="2332" y="115.27093596059113"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BinaryCode.jpg" width="852" height="480"/>
+        <image name="BlockCode.png" width="800" height="705"/>
+        <image name="ByteCode.png" width="627" height="232"/>
+        <image name="LogicGate.gif" width="539" height="328"/>
+        <image name="SwiftCode.png" width="710" height="395"/>
+    </resources>
 </document>
